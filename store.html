@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Store</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="store.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="./images/logo-2.png" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#reviews">reviews</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <i class="ri-search-line" id="search-btn"></i>
+            <i class="ri-shopping-cart-fill" id="cart-btn"></i>
+            <i class="ri-menu-line" id="menu-btn"></i>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here.....">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./images/cart-item-1.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">Rs.4999/-</div>
+                </div>
+                
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./images/cart-item-2.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">Rs.3999/-</div>
+                </div>
+                
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./images/cart-item-3.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">Rs.6999/-</div>
+                </div>
+                
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./images/cart-item-4.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">Rs.5999/-</div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">checkout Now</a>
+
+        </div>
+
+    </header>
+
+<!-- home section starts from here -->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>New stock in Jewellery</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non iure ex fugit quisquam quidem provident.</p>
+        <a href="#" class="btn">Get Yours Now</a>
+    </div>
+</section>
+
+<!-- about section starts here -->
+<section class="about" id="about">
+    <h1 class="heading"> <span>About</span> us </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="./images/about-img.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>What makes our Jewellery special?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, repudiandae pariatur? Reiciendis doloremque animi dignissimos debitis architecto, excepturi laudantium praesentium odit magnam voluptatibus recusandae soluta. Beatae ducimus dolorum quidem qui.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque adipisci maxime vitae quidem odit? Incidunt!</p>
+            <a href="#" class="btn">learn more!</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- menu section starts here -->
+ <section class="menu" id="menu">
+    <h1 class="heading">our <span>catalogue</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/cart-item-1.jpg" alt="">
+            <h3>earrings</h3>
+            <div class="price">Rs.10999 <span>13999</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="images/cart-item-2.jpg" alt="">
+            <h3>necklace</h3>
+            <div class="price">Rs.22999 <span>26999</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="images/cart-item-3.jpg" alt="">
+            <h3>rings</h3>
+            <div class="price">Rs.18999 <span>23999</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="images/cart-item-4.jpg" alt="">
+            <h3>bracelet</h3>
+            <div class="price">Rs.29999 <span>35999</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="images/cart-item-5.jpg" alt="">
+            <h3>premium neckband</h3>
+            <div class="price">Rs.49999 <span>53999</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="images/cart-item-6.jpg" alt="">
+            <h3>attractive pended</h3>
+            <div class="price">Rs.55999 <span>59999</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+ </section>
+
+ <section class="products" id="products">
+
+    <h1 class="heading"> Our <span>products</span> </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>wedding jewellery</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Rs.25999 <span>Rs.28999</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>traditional jewellery</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Rs.28999 <span>Rs.32999</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>premium jewellery</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Rs.31999 <span>Rs.35999</span></div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+<!-- review section starts here -->
+ <section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./images/shraddha.jpg" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt iusto magni atque tenetur placeat minus inventore sunt rerum consectetur optio odit illo animi nemo quibusdam, veniam aspernatur obcaecati quisquam.</p>
+            <img src="" alt="">
+            <h3>shraddha kapoor</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/kiara.jpg" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt iusto magni atque tenetur placeat minus inventore sunt rerum consectetur optio odit illo animi nemo quibusdam, veniam aspernatur obcaecati quisquam.</p>
+            <img src="" alt="">
+            <h3>kiara advani</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/alia.jpeg" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt iusto magni atque tenetur placeat minus inventore sunt rerum consectetur optio odit illo animi nemo quibusdam, veniam aspernatur obcaecati quisquam.</p>
+            <img src="" alt="">
+            <h3>alia bhatt</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/anushka.jpg" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt iusto magni atque tenetur placeat minus inventore sunt rerum consectetur optio odit illo animi nemo quibusdam, veniam aspernatur obcaecati quisquam.</p>
+            <img src="" alt="">
+            <h3>anushka sharma</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/dipika.jpg" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt iusto magni atque tenetur placeat minus inventore sunt rerum consectetur optio odit illo animi nemo quibusdam, veniam aspernatur obcaecati quisquam.</p>
+            <img src="" alt="">
+            <h3>dipeeka padukone</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/kriti.jpg" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt iusto magni atque tenetur placeat minus inventore sunt rerum consectetur optio odit illo animi nemo quibusdam, veniam aspernatur obcaecati quisquam.</p>
+            <img src="" alt="">
+            <h3>kriti sanon</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+ </section>
+
+<!-- contact section starts here -->
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.421572419008!2d77.75569458814478!3d20.919936637481523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a4af3f01a3f5%3A0x74a3cd36318730bf!2sRajapeth%2C%20Kanwar%20Nagar%2C%20Guruchhaya%20Colony%2C%20Vivekanand%20Colony%2C%20Amravati%2C%20Maharashtra%20444605!5e0!3m2!1sen!2sin!4v1724480788427!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" checked class="btn">
+        </form>
+    </div>
+
+</section>
+
+<!-- blogs section starts here -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/cart-item-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title"> premium jewellery</a>
+                <span>by admin / 21st may, 2022</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quasi aperiam! Officia sint ad ut?</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/cart-item-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title"> ultra premium </a>
+                <span>by admin / 21st may, 2022</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quasi aperiam! Officia sint ad ut?</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="image">
+                <img src="./images/cart-item-7.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title"> standard jewellery</a>
+                <span>by admin / 21st may, 2022</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quasi aperiam! Officia sint ad ut?</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        
+
+    </div>
+
+</section>
+
+<!-- footer section starts here -->
+ <section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fa-brands fa-twitter"></a>
+        <a href="#" class="fa-brands fa-instagram"></a>
+        <a href="#" class="fa-brands fa-linkedin"></a>
+        <a href="#" class="fa-brands fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">product</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+        <a href="#">blogs</a>
+    </div>
+
+    <div class="credit">credited by <span>mr. kunal designer</span> | all rights reserved</div>
+
+ </section>
+
+    <script src="store.js"></script>
+</body>
+</html>
